@@ -1,4 +1,55 @@
 body{
     background-color:
-    cornflowerblue;
+    rgb(255, 255, 255);
+}
+
+
+html, body{
+    height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#title{
+    color: white;
+    text-align: center;
+
+    
+}
+
+.parallax{
+    background-image: url("https://digidezine.com/wp-content/uploads/revslider/agency-sparta-animated1/4-25_mini_mini2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax   {
+        background-attachment: scroll;
+    }
 }
